@@ -1,0 +1,53 @@
+const wordList = [
+  { word: "apple", hint: "A fruit that is usually red, green, or yellow." },
+  { word: "elephant", hint: "The largest land animal." },
+  {
+    word: "computer",
+    hint: "A device used for processing data and information.",
+  },
+  { word: "guitar", hint: "A musical instrument with six strings." },
+  {
+    word: "mountain",
+    hint: "A large natural elevation of the earth's surface.",
+  },
+  {
+    word: "ocean",
+    hint: "A vast body of salt water that covers almost three-quarters of Earth.",
+  },
+  {
+    word: "pyramid",
+    hint: "A structure with a square or triangular base and sloping sides.",
+  },
+  { word: "train", hint: "A form of transport that runs on tracks." },
+  { word: "balloon", hint: "A flexible bag that can be inflated with gas." },
+  {
+    word: "river",
+    hint: "A large natural stream of water flowing in a channel.",
+  },
+  { word: "tiger", hint: "A large wild cat with a striped coat." },
+  { word: "airplane", hint: "A powered flying vehicle with wings." },
+  { word: "banana", hint: "A long, curved fruit with a yellow skin." },
+  { word: "kangaroo", hint: "An Australian animal known for its jumping." },
+  { word: "volcano", hint: "A mountain that can erupt with lava." },
+  { word: "clock", hint: "A device used to tell time." },
+  { word: "rainbow", hint: "A colorful arc seen after rain." },
+  {
+    word: "robot",
+    hint: "A machine capable of carrying out tasks automatically.",
+  },
+  { word: "sunflower", hint: "A tall plant with a large yellow flower." },
+  { word: "chocolate", hint: "A sweet treat made from cocoa." },
+  { word: "spaceship", hint: "A vehicle designed for space travel." },
+  { word: "dinosaur", hint: "An extinct prehistoric animal." },
+  { word: "umbrella", hint: "A device used to protect from rain." },
+  { word: "pencil", hint: "A tool used for writing or drawing." },
+  { word: "penguin", hint: "A flightless bird that lives in cold climates." },
+  { word: "bicycle", hint: "A two-wheeled vehicle that you pedal." },
+  { word: "camera", hint: "A device used to take photographs." },
+  { word: "whale", hint: "The largest mammal living in the ocean." },
+  {
+    word: "library",
+    hint: "A place where books are stored and can be borrowed.",
+  },
+  { word: "rocket", hint: "A vehicle designed to travel into space." },
+];
