@@ -28,3 +28,4 @@ This is a simple Hangman Game implemented using HTML, CSS, and JavaScript. The g
 <br>
 
 ## Live Demo :
+ https://naglaa99.github.io/hangman-game/
