@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 body {
   padding: 0 15px;
   display: flex;
@@ -13,6 +14,7 @@ body {
   min-height: 100vh;
   background-color: rgb(18, 57, 68);
 }
+
 .container {
   width: 850px;
   background-color: #fff;
@@ -23,18 +25,22 @@ body {
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .hangman-box img {
   max-width: 270px;
 }
+
 .hangman-box h1 {
   margin-top: 20px;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.85rem;
 }
+
 .hangman-box span {
   color: rgb(12, 127, 125);
 }
+
 .word-display {
   list-style: none;
   display: flex;
@@ -42,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .word-display .letter {
   width: 28px;
   border-bottom: 3px solid #000;
@@ -52,28 +59,34 @@ body {
   color: rgb(12, 127, 125);
   text-align: center;
 }
+
 .word-display .letter.guessed {
   border-color: transparent;
   margin-top: -40px;
 }
+
 .text-hint {
   text-align: center;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
+
 .text-hint b {
   color: rgb(12, 127, 125);
 }
+
 .guesses-text {
   text-align: center;
   margin-bottom: 15px;
   font-size: 1.1rem;
   font-weight: 600;
 }
+
 .guesses-text b {
   color: red;
 }
+
 .game-box .keyboard {
   margin-top: 40px;
   display: flex;
@@ -81,6 +94,7 @@ body {
   flex-wrap: wrap;
   gap: 5px;
 }
+
 .keyboard button,
 .play-again {
   width: calc(100% / 9 - 5px);
@@ -95,15 +109,18 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
 .keyboard button[disabled] {
   opacity: 0.5;
   pointer-events: none;
 }
+
 .keyboard button:hover,
 .play-again:hover {
   background-color: rgb(20, 206, 203);
   transition: 0.3s;
 }
+
 .game-modal {
   position: fixed;
   left: 0;
@@ -121,13 +138,16 @@ body {
   transition: opacity 0.4s ease;
   padding: 0 10px;
 }
+
 .game-modal.show {
   opacity: 1;
   pointer-events: auto;
 }
+
 .game-modal img {
   width: 130px;
 }
+
 .content {
   max-width: 350px;
   height: auto;
@@ -135,22 +155,27 @@ body {
   border-radius: 8px;
   padding: 30px;
 }
+
 .content h4 {
   font-size: 1.5rem;
   padding: 15px 0;
   text-transform: uppercase;
 }
+
 .content p {
   font-size: 1.1rem;
   font-weight: 500;
   padding-bottom: 20px;
 }
+
 .content p b {
   color: rgb(12, 127, 125);
 }
+
 .play-again {
   width: 120px;
 }
+
 /* ====responsive in small screen==== */
 @media (max-width: 780px) {
   .container {
@@ -158,10 +183,12 @@ body {
     align-items: center;
     padding: 30px 15px;
   }
+
   .hangman-box img {
     width: 200px;
     margin-bottom: 20px;
   }
+
   .hangman-box h1 {
     display: none;
   }

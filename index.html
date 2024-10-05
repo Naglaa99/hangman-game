@@ -1,45 +1,56 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A fun Hangman game where players guess a hidden word with a limited number of wrong guesses. Play now and test your vocabulary!"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A fun Hangman game where players guess a hidden word with a limited number of wrong guesses. Play now and test your vocabulary!">
     <title>Hangman Game</title>
-    <link rel="icon" href="./images/Hangman-Game.webp" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-</head>
 
-<body>
+    <link rel="icon" href="./images/Hangman-Game.webp" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
     <div class="game-modal">
-        <div class="content">
-            <img src="" alt="gif">
-            <h4></h4>
-            <p></p>
-            <button class="play-again">Play Again</button>
-        </div>
+      <div class="content">
+        <img src="" alt="gif" />
+        <h4></h4>
+        <p></p>
+        <button class="play-again">Play Again</button>
+      </div>
     </div>
+
     <div class="container">
-        <div class="hangman-box">
-            <img src="./images/hangman-0.svg" alt="hangman-image">
-            <h1><span>Hangman</span> Game</h1>
-        </div>
-        <div class="game-box">
-            <ul class="word-display"></ul>
-            <div class="text-hint">
-                <b>Hint :</b>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            </div>
-            <div class="guesses-text">
-                Incorrect guesses :
-                <b>0 / 6</b>
+      <div class="hangman-box">
+        <img src="./images/hangman-0.svg" alt="hangman-image" />
+        <h1><span>Hangman</span> Game</h1>
+      </div>
 
-            </div>
-            <div class="keyboard"></div>
-        </div>
-        <!-- JavaScript File -->
-        <script src="./javascript/word-list.js"></script>
-        <script src="./javascript/main.js"></script>
-</body>
+      <div class="game-box">
+        <ul class="word-display"></ul>
 
+        <div class="text-hint">
+          <b>Hint :</b>
+          <span>The largest mammal living in the ocean.</span>
+        </div>
+
+        <div class="guesses-text">
+          Incorrect guesses :
+          <b>0 / 6</b>
+        </div>
+
+        <div class="keyboard"></div>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./javascript/word-list.js"></script>
+    <script src="./javascript/main.js"></script>
+  </body>
 </html>
